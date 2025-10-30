@@ -1,7 +1,12 @@
 <div align="center">
-# Redemption
 
-## Life is all sorts of Problems
+<h1 style="font-size: 5rem; margin: 0; color: #ff4d4d; text-shadow: 0 0 15px #ff0000;">
+    Redemption
+</h1>
+
+<h3 style="margin: 10px 0; font-weight: bold;">
+    Life is all sorts of Problems
+</h3>
 
 <p align="center">
 <img src="https://telegra.ph/file/20c8b2be57cca5ab47230.jpg" alt="nz" width="350"/>
