@@ -1,4 +1,26 @@
-# Redemption
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                background: #000
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, sans-serif;
+                }
+            h1 {
+                color: #ff4d4d;
+                font-size: 4rem;
+                text-align: center;
+                text-shadw: 0 0 20px #ff0000;
+        </style>
+    </head>
+<body>
+<h1>Redemption</h1>
+</body>
+</html>
 
 ## Life is all sorts of Problems
 
