@@ -1,6 +1,6 @@
 ### Redemption
 
-<h2> Life is all sorts of Problems </h2>
+## Life is all sorts of Problems
 
 <p align="center">
 <img src="https://telegra.ph/file/20c8b2be57cca5ab47230.jpg" alt="nz" width="350"/>
