@@ -1,4 +1,5 @@
-<h1> Redemption </h1>
+### Redemption
+
 <h2> Life is all sorts of Problems </h2>
 
 <p align="center">
