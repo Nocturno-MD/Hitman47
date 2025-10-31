@@ -18,9 +18,9 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
         super()
         Config()
         this.config = {
-            name: process.env.BOT_NAME || 'bot',
+            name: process.env.BOT_NAME || 'Redemption',
             session: process.env.SESSION || 'SESSION',
-            prefix: process.env.PREFIX || '#',
+            prefix: process.env.PREFIX || '!',
             API_URL: 'https://d-mail-api.vercel.app/',
             gkey: 'AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWIEcx',
             mods: (process.env.MODS || '27844132352').split(', ').map((user) => `${user}@s.whatsapp.net`),
@@ -42,7 +42,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             printQRInTerminal: true,
             auth: state,
             logger: P({ level: 'fatal' }) as unknown as SocketConfig['logger'],
-            browser: ['Hitman47😈', 'fatal', '4.0.0'],
+            browser: ['Carman', 'fatal', '4.0.0'],
             getMessage: async (key) => {
                 return {
                     conversation: ''
@@ -111,11 +111,11 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             }
             if (connection === 'connecting') {
                 this.condition = 'connecting'
-                this.log('Connecting to WhatsApp...')
+                this.log('I am Connecting to WhatsApp...')
             }
             if (connection === 'open') {
                 this.condition = 'connected'
-                this.log('Connected to WhatsApp')
+                this.log('I have been Connected to WhatsApp')
                 this.emit('open')
             }
         })
