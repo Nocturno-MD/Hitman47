@@ -36,7 +36,6 @@ interface ICommandConfig {
 export type TCategory =
     | 'fun'
     | 'games'
-    | 'porn'
     | 'utils'
     | 'bot'
     | 'anime'
