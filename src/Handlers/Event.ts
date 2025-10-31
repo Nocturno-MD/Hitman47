@@ -46,14 +46,14 @@ export class EventHandler {
                 : event.action === 'remove'
                 ? `Goodbye *${event.participants
                       .map((jid) => `@${jid.split('@')[0]}`)
-                      .join(', ')}* 👋🏻, It's been nice meeting you but we're probably not gonna miss you.`
+                      .join(', ')}* 👋🏻, It's been nice meeting you.`
                 : event.action === 'demote'
-                ? `Ara Ara, looks like *@${
+                ? `Uh, looks like *@${
                       event.participants[0].split('@')[0]
-                  }* 📚you're fired and Adminship isn't for you`
+                  }* has been demoted and Adminship isn't for you.`
                 : `Congratulations *@${
                       event.participants[0].split('@')[0]
-                  }*, ❤️you're an admin! I hope you take care of us*`
+                  }*, you're now an admin!*`
         if (event.action === 'add') {
             let imageUrl: string | undefined
             try {
